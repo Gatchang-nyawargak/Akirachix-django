@@ -14,5 +14,5 @@ class Class_project(models.Model):
     class_students = models.ManyToManyField('Student')
 
     def __str__(self):
-        return f"{self.class_name}"
+        return f"{self.class_description}"
     

@@ -17,3 +17,5 @@ class student(models.Model):
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
     
+    def __email__(self):
+        return {self.email}
